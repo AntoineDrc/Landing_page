@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+ }
+
+ header {
+    background: radial-gradient(rgb(139, 195, 245), #1294b8);
+    display: flex;
+    justify-content: space-between;
+ }
+
+ 
