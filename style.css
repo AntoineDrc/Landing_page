@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     vertical-align: top;
+    font-family: "Poppins";
  }
 
 #entete {
    background: radial-gradient(rgb(139, 195, 245), #1294b8);
-   min-height: 500px;
+   min-height: 838px;
 }
 
  header {
@@ -27,11 +31,13 @@ nav ul {
 nav li a {
    text-decoration: none;
    color: white;
+   font-size: 1.2em;
 }
 
 header h2 {
    color: white;
    margin-left: 50px;
+   font-size: 2em;
 }
 
 header figure {
@@ -44,24 +50,25 @@ header figure {
    display: flex;
    align-items: center;
    gap: 68px;
-   margin: 0 180px;
-   padding: px;
+   margin: 140px;
 }
 
 #intro article {
-   padding: 100px;
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
 }
 
 #intro article p {
-   margin: 12px 0 12px ;
+   font-size: 1.7em;
 }
 
 #intro h1 {
-   font-size: 2.3em;
+   font-size: 2.7em;
 }
 
 #intro img {
-   height: 310px;
+   height: 500px;
 }
 
 #intro form {
@@ -71,20 +78,39 @@ header figure {
 
 #intro .zone {
    border: none;
-   min-height: 25px;
+   min-height: 40px;
    border-radius: 50px;
-   min-width: 300px;
+   min-width: 400px;
    padding: 10px;
 
 }
 
 #intro .bouton {
    position: absolute;
-   left: 495px;
+   left: 447px;
    background-color: #1696ba;
    color: white;
    border-radius: 50px;
-   font-size: 12px;
+   font-size: 15px;
    padding: 5px;
    border: none;
+}
+
+/* *********************************************************** */
+
+#product {
+   height: 600px;
+   background-color: white;
+}
+
+#product article {
+   max-height: 500px;
+}
+
+.flexcard {
+   display: flex;
+   gap: 20px;
+}
+.card {
+   background: radial-gradient(rgb(139, 195, 245), #1294b8);
 }
