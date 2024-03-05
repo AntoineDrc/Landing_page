@@ -5,12 +5,16 @@
     vertical-align: top;
  }
 
+#entete {
+   background: radial-gradient(rgb(139, 195, 245), #1294b8);
+   min-height: 500px;
+}
+
  header {
-    background: radial-gradient(rgb(139, 195, 245), #1294b8);
+    
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    min-height: 500px;
+    align-items: center;
     padding: 15px;
  }
 
@@ -27,4 +31,60 @@ nav li a {
 
 header h2 {
    color: white;
+   margin-left: 50px;
+}
+
+header figure {
+   display: flex;
+   gap: 15px;
+   margin-right: 50px;
+}
+
+#intro {
+   display: flex;
+   align-items: center;
+   gap: 68px;
+   margin: 0 180px;
+   padding: px;
+}
+
+#intro article {
+   padding: 100px;
+}
+
+#intro article p {
+   margin: 12px 0 12px ;
+}
+
+#intro h1 {
+   font-size: 2.3em;
+}
+
+#intro img {
+   height: 310px;
+}
+
+#intro form {
+   display: flex;
+   align-items: center;
+}
+
+#intro .zone {
+   border: none;
+   min-height: 25px;
+   border-radius: 50px;
+   min-width: 300px;
+   padding: 10px;
+
+}
+
+#intro .bouton {
+   position: absolute;
+   left: 495px;
+   background-color: #1696ba;
+   color: white;
+   border-radius: 50px;
+   font-size: 12px;
+   padding: 5px;
+   border: none;
 }
