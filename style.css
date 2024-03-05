@@ -99,18 +99,60 @@ header figure {
 /* *********************************************************** */
 
 #product {
-   height: 600px;
+   height: 100vh;
    background-color: white;
 }
 
 #product article {
-   max-height: 500px;
+   text-align: center;
+   margin: 2em 30em 4em;
 }
 
 .flexcard {
    display: flex;
-   gap: 20px;
+   gap: 25px;
+   margin: 2em 10em;
 }
 .card {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 350px;
+   gap: 30px;
    background: radial-gradient(rgb(139, 195, 245), #1294b8);
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+   border-radius: 1em;
+   transition: 0.4s;
+
+}
+
+.card:hover {
+   transform: translateY(-7px);
+}
+.card p {
+   text-align: center;
+   color: white;
+   margin: 0 20px;
+}
+
+.card h2 {
+   color: white;
+}
+
+.card i {
+   margin-bottom: 22px;
+}
+
+/* ********************************************************** */
+#equipe {
+}
+
+.portrait {
+   display: flex;
+}
+
+.portrait img {
+   max-width: 150px;
+   max-height: 150px;
 }
