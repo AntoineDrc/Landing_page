@@ -149,20 +149,28 @@ header figure {
 /* ********************************************************** */
 
 
-#equipe .portrait_image {
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-
-.portrait {
+.ensemble_portrait {
    display: flex;
    justify-content: center;
 }
 
-.portrait img {
+.portrait_individuel {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.photo {
+   border: solid red;
+   border-radius: 100px;
    max-width: 200px;
    max-height: 200px;
-   filter: grayscale();
-   border-radius: 100px;
+   /* filter: grayscale(); */
+   transition: 0.5s;
+}
+
+.photo:hover {
+   filter: none;
+   transform: scale(1.5);
+   overflow: hidden;
 }
