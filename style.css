@@ -11,8 +11,7 @@
 
 #entete {
    background: radial-gradient(rgb(139, 195, 245), #1294b8);
-   min-height: 838px;
-   margin-bottom: 2em;
+   height: 100vh;
 }
 
  header {
@@ -95,18 +94,22 @@ header figure {
    font-size: 15px;
    padding: 5px;
    border: none;
+   cursor: pointer;
 }
 
 /* *********************************************************** */
 
 #product {
-   height: 100vh;
+   height: 70vh;
    background-color: white;
 }
 .title {
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
    text-align: center;
-   padding: 0 400px;
-   margin-bottom: 3em;
+   padding: 0 700px;
+   margin: 5em 0 6em;
 }
 
 .flexcard {
@@ -122,8 +125,7 @@ header figure {
    height: 350px;
    gap: 30px;
    background: radial-gradient(rgb(139, 195, 245), #1294b8);
-   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-   border-radius: 1em;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   border-radius: 1em;
    transition: 0.4s;
 
 }
@@ -146,12 +148,32 @@ header figure {
 }
 
 
-/* ********************************************************** */
+/********************************************************/
+.mini_text {
+   height: 60vh;
+   background-color: rgba(128, 128, 128, 0.047);
+   text-align: center;
+   padding-top: 5em;
+}
 
+.mini_text h1 {
+   margin-bottom: 10px;
+}
+
+.mini_text p {
+   padding: 0 700px;
+}
+
+/********************************************************/
+#equipe {
+   height: 100vh;
+}
 
 .ensemble_portrait {
    display: flex;
    justify-content: center;
+   gap: 6em;
+   
 }
 
 .portrait_individuel {
@@ -160,17 +182,32 @@ header figure {
    align-items: center;
 }
 
+.portrait_entete {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
 .photo {
-   border: solid red;
    border-radius: 100px;
    max-width: 200px;
    max-height: 200px;
-   /* filter: grayscale(); */
+   overflow: hidden;
+}
+
+#equipe img {
+   max-width: 100%;
+   max-height: 100%;
+   filter: grayscale();
    transition: 0.5s;
 }
 
-.photo:hover {
+#equipe img:hover {
    filter: none;
-   transform: scale(1.5);
-   overflow: hidden;
+   transform: scale(1.07);
+}
+
+#equipe figcaption {
+   max-width: 150px;
+   text-align: center;
+   margin-top: 10px;
 }
