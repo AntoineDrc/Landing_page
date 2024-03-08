@@ -211,3 +211,24 @@ header figure {
    text-align: center;
    margin-top: 10px;
 }
+
+/* ************************************************** */
+
+#parallax {
+   height: 100vh;
+}
+
+.parallax_photo {
+   height: 60vh;
+   background-image: url(img/parallax.png);
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   
+}
+
+.parallax_photo img {
+   height: 100%;
+   width: 100%;
+   
+}
