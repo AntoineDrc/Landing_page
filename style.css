@@ -213,15 +213,15 @@ header figure {
   height: 100vh;
 }
 
-.parallax_photo {
+.parallax_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 60vh;
   background-image: url(img/parallax.png);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
-
-.parallax_photo img {
-  height: 100%;
-  width: 100%;
+  color: white;
 }
