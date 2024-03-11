@@ -175,6 +175,7 @@ header figure {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 .portrait_entete {
@@ -183,10 +184,56 @@ header figure {
 }
 
 .photo {
-  border-radius: 150px;
+  display: flex;
   max-width: 250px;
   max-height: 250px;
   overflow: hidden;
+  border-radius: 150px;
+}
+
+.photo:hover .icone_photo {
+  right: 237px;
+  
+}
+
+.icone_photo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+  top: 70px;
+  right: 280px;
+  transition: 0.7s;
+}
+
+.fb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.twitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.skype {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
 }
 
 #equipe img {
@@ -194,11 +241,13 @@ header figure {
   max-height: 100%;
   filter: grayscale();
   transition: 0.5s;
+  
 }
 
 #equipe img:hover {
   filter: none;
   transform: scale(1.07);
+  
 }
 
 #equipe figcaption {
@@ -210,10 +259,10 @@ header figure {
 /* ************************************************** */
 
 #parallax {
-  height: 100vh;
+  height: 60vh;
 }
 
-.parallax_text {
+.parallax_photo {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -223,5 +272,56 @@ header figure {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  color: white;
+  filter: brightness(45%);
 }
+
+.parallax_text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  top: -350px;
+  text-align: center;
+  color: white;
+  padding: 0 410px;
+}
+
+.submit_button input {
+  margin-top: 25px;
+  padding: 10px 25px;
+  border-radius: 10px;
+  background: transparent;
+  color: white;
+  border: solid white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.submit_button input:hover {
+  background-color: white;
+  color: black;
+  transform: translateY(-10px);
+}
+
+/* *********************************** */
+
+#our_blog {
+  height: 100vh;
+}
+
+.mini_text {
+  height: 60vh;
+  background-color: rgba(128, 128, 128, 0.047);
+  text-align: center;
+  padding-top: 5em;
+}
+
+.our_blog_ensemble_photo {
+  display: flex;
+}
+
+.cadre_header {
+  max-width: 250px;
+  max-height: 250px;
+}
+
