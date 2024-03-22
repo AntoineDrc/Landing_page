@@ -147,7 +147,7 @@ header figure {
 /********************************************************/
 .mini_text {
   height: 60vh;
-  background-color: rgba(128, 128, 128, 0.047);
+  background-color: rgba(128, 128, 128, 0.147);
   text-align: center;
   padding-top: 5em;
 }
@@ -303,13 +303,162 @@ header figure {
   transform: translateY(-10px);
 }
 
+/* ***************************************/
+
+#client {
+height: 60vh;
+background-color: rgba(128, 128, 128, 0.147);
+}
+
+.icone_client {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  margin-top: 80px;
+}
+
+.icone_client img {
+  height: auto;
+  width: 150px;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.icone_client img:hover {
+  opacity: 1;
+}
+/* ************************************* */
+#creativity {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  margin: 0px 150px;
+}
+
+.left_column {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.p_crea {
+  margin-top: 25px;
+  width: 500px;
+}
+
+.chiffres {
+  display: flex;
+  gap: 20px;
+}
+
+#creativity button {
+  width: fit-content;
+  padding: 15px;
+  background-color: #3f8efd;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+#creativity img {
+  height: 100%;
+  width: 100%;
+  padding: 150px;
+}
+/* ************************************* */
+#pricing {
+  height: 100vh;
+  background-color: rgba(128, 128, 128, 0.147);
+}
+
+.flexcard_pricing {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 2em 10em;
+}
+
+.card_pricing {
+  background-color: white;
+  padding: 25px;
+  border-radius: 15px;
+  transition: 0.5s;
+  height: 444px;
+  width: 332px;
+}
+
+.card_pricing:hover {
+  transform: translateY(-10px);
+}
+
+.card_pricing:hover button {
+  background-color: #3f8efd;
+  color: white;
+}
+
+.card_p_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sale {
+  position: absolute;
+  right: 670px;
+  top: 5910px;
+  color: white;
+  background-color: #3f8efd;
+}
+.offre {
+  margin-bottom: 10px;
+}
+
+.prix_mois {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.devise {
+  color: #3f8efd;
+  font-size: 32px;
+}
+.prix {
+  color: #3f8efd;
+  font-size: 72px;
+}
+
+.card_p_body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.card_p_footer {
+  display: flex;
+  justify-content: center;
+}
+
+.card_p_footer button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 5px;
+  background-color: white;
+  border: #3f8efd solid;
+  color: #3f8efd;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+/* ************************************* */
 #our_blog {
   height: 100vh;
 }
 
+
 .mini_text_2 {
   height: 25vh;
-  background-color: rgba(128, 128, 128, 0.047);
+  background-color: rgba(128, 128, 128, 0.147);
   text-align: center;
   padding-top: 5em;
 }
