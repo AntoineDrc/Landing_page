@@ -175,7 +175,6 @@ header figure {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .portrait_entete {
@@ -193,7 +192,6 @@ header figure {
 
 .photo:hover .icone_photo {
   right: 237px;
-  
 }
 
 .icone_photo {
@@ -241,13 +239,11 @@ header figure {
   max-height: 100%;
   filter: grayscale();
   transition: 0.5s;
-  
 }
 
 #equipe img:hover {
   filter: none;
   transform: scale(1.07);
-  
 }
 
 #equipe figcaption {
@@ -306,8 +302,8 @@ header figure {
 /* ***************************************/
 
 #client {
-height: 60vh;
-background-color: rgba(128, 128, 128, 0.147);
+  height: 60vh;
+  background-color: rgba(128, 128, 128, 0.147);
 }
 
 .icone_client {
@@ -455,7 +451,6 @@ background-color: rgba(128, 128, 128, 0.147);
   height: 100vh;
 }
 
-
 .mini_text_2 {
   height: 25vh;
   background-color: rgba(128, 128, 128, 0.147);
@@ -540,7 +535,3 @@ background-color: rgba(128, 128, 128, 0.147);
   filter: brightness(50%);
   transition: 0.8s;
 }
-
-
-
-
